@@ -2,19 +2,19 @@
 id: lbzZUFNlo3Gq3jytlOvPg
 title: Root
 desc: ''
-updated: 1643864208027
+updated: 1644874931292
 created: 1643864208027
 ---
-# Welcome to Dendron
 
-This is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.
+# Welcome
 
-## Lookup
+Hello, my name is [Trevor Sullivan](https://www.linkedin.com/in/trevor-sullivan-310000225/). This is an informational site to help people with technology.
 
-This section contains useful links to related resources.
+### My Interests
 
-- [Getting Started Guide](https://link.dendron.so/6b25)
-- [Discord](https://link.dendron.so/6b23)
-- [Home Page](https://wiki.dendron.so/)
-- [Github](https://link.dendron.so/6b24)
-- [Developer Docs](https://docs.dendron.so/)
+* Photography and video
+* Motorcycles
+* Firearms
+* Investing
+* Hiking
+* Beer
