@@ -7,7 +7,6 @@ dev:
     enablePreviewV2: true
 site:
     siteUrl: https://pcgeek86.github.io
-    assetsPrefix: /opensrc-notes
     copyAssets: true
     siteHierarchies:
         - root
