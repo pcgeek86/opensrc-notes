@@ -12,8 +12,8 @@ site:
         - root
     siteRootDir: docs
     usePrettyRefs: true
-    title: Dendron
-    description: Personal knowledge space
+    title: Trevor Sullivan
+    description: 'Trevor Sullivan's notes on various technology solutions: PowerShell, Python, Amazon Web Services (AWS), Microsoft Azure, Docker, and more.'
     siteLastModified: true
     gh_edit_branch: main
     duplicateNoteBehavior:

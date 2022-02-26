@@ -1,8 +1,8 @@
 ---
 id: xS4a2VvW7vHG500rq8Ae0
 title: Deploying Kubernetes Pods
-desc: 'Deploying pods onto Kubernetes clusters.'
-updated: 1644946767836
+desc: Deploying pods onto Kubernetes clusters.
+updated: 1645836986187
 created: 1644876750896
 stub: false
 ---
@@ -22,4 +22,47 @@ spec:
   containers:
   - name: webserver
     image: nginx
+```
+
+### Deploy MySQL Database in Kubernetes Pod
+
+The following Kubernetes manifest will deploy a Kubernetes pod running the MySQL database engine.
+
+```yml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mysqlserver # Name for the Kubernetes pod
+  labels:
+    purpose: Store financial data # A key-value label for the MySQL pod
+spec:
+  containers:
+  - name: mysqldb
+    image: mysql:latest
+    env:
+      - name: MYSQL_ROOT_PASSWORD
+        value: --yourpasswordhere--
+```
+
+### Deploy Pod Manifest with PowerShell
+
+You can pipe a Kubernetes manifest directly into PowerShell.
+To accomplish this, set the `--filename` parameter to a `-` dash character, and pipe the string into the `kubectl` command.
+
+```powershell
+@'
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mysqlserver                    # Name for the Kubernetes pod
+  labels:
+    purpose: store-financial-data      # A key-value label for the MySQL pod
+spec:
+  containers:
+  - name: mysqldb
+    image: mysql:latest
+    env:
+      - name: MYSQL_ROOT_PASSWORD      # The MySQL container image requires that you set a root password statically or randomly. This is the static method
+        value: --yourpasswordhere--    # The root password for the MySQL engine
+'@ | kubectl apply --filename -
 ```

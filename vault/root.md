@@ -1,8 +1,8 @@
 ---
 id: lbzZUFNlo3Gq3jytlOvPg
-title: Root
+title: Welcome to Trevor Sullivan's technology notes!
 desc: ''
-updated: 1644874931292
+updated: 1645834709370
 created: 1643864208027
 ---
 
@@ -18,3 +18,4 @@ Hello, my name is [Trevor Sullivan](https://www.linkedin.com/in/trevor-sullivan-
 * Investing
 * Hiking
 * Beer
+
