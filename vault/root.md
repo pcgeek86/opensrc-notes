@@ -2,20 +2,20 @@
 id: lbzZUFNlo3Gq3jytlOvPg
 title: Welcome to Trevor Sullivan's technology notes!
 desc: ''
-updated: 1645834709370
+updated: 1645906628905
 created: 1643864208027
 ---
 
-# Welcome
-
 Hello, my name is [Trevor Sullivan](https://www.linkedin.com/in/trevor-sullivan-310000225/). This is an informational site to help people with technology.
+You can find me on [GitHub](https://github.com/pcgeek86) as well, where I've authored several open source projects.
+I also have a [YouTube channel](https://youtube.com/trevorsullivan) where I publish videos about technical topics, such as PowerShell, AWS, Azure, and more.
 
 ### My Interests
 
-* Photography and video
+* Software
+* Photography / video
 * Motorcycles
 * Firearms
 * Investing
 * Hiking
 * Beer
-

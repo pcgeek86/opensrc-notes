@@ -2,7 +2,7 @@
 id: xS4a2VvW7vHG500rq8Ae0
 title: Deploying Kubernetes Pods
 desc: Deploying pods onto Kubernetes clusters.
-updated: 1645836986187
+updated: 1645838207608
 created: 1644876750896
 stub: false
 ---
@@ -66,3 +66,10 @@ spec:
         value: --yourpasswordhere--    # The root password for the MySQL engine
 '@ | kubectl apply --filename -
 ```
+
+### Deploy Kubernetes Pod with Multiple Containers
+
+You can deploy more than one container in each Kubernetes Pod resource.
+The `containers` property on the Kubernetes Pod spec is an array, so all you need to do is add more containers.
+Keep in mind that a Pod has a single IP address, and two containers cannot use the same network port.
+
