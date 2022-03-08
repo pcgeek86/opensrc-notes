@@ -2,7 +2,7 @@
 id: nWWQasrVd8ffIDuMMQm7U
 title: Cloud Storage Solutions
 desc: Overview of object, block, and database storage solutions from cloud vendors.
-updated: 1645836035737
+updated: 1646769764371
 created: 1643864519444
 ---
 
@@ -21,13 +21,15 @@ There are many different types of cloud storage available as well.
 ## Database Storage
 
 * [Planetscale](https://planetscale.com/pricing) - built on top of the open source Vitess.io project. Includes 10GB free storage tier.
-* [MySQL] - an open source database engine from Oracle. Also offers an enterprise licensed version with advanced features.
-* [PostgreSQL] - an open source database engine
-* [MariaDB] - 
+* [MySQL](https://mysql.com) - an open source database engine from Oracle. Also offers an enterprise licensed version with advanced features.
+* [MariaDB](https://mariadb.org/) - an open source fork of MySQL
+* [PostgreSQL](https://www.postgresql.org/) - an open source database engine
 * [Vitess.io] - a distributed, sharding MySQL-compatible database engine
 
 * [etcd] - key-value storage engine
 * [Redis] - in-memory database engine
+
+* [Neo4j](https://neo4j.com)
 
 ## Block Storage
 
