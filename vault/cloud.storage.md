@@ -2,7 +2,7 @@
 id: nWWQasrVd8ffIDuMMQm7U
 title: Cloud Storage Solutions
 desc: Overview of object, block, and database storage solutions from cloud vendors.
-updated: 1646769764371
+updated: 1646789226839
 created: 1643864519444
 ---
 
@@ -25,12 +25,10 @@ There are many different types of cloud storage available as well.
 * [MariaDB](https://mariadb.org/) - an open source fork of MySQL
 * [PostgreSQL](https://www.postgresql.org/) - an open source database engine
 * [Vitess.io] - a distributed, sharding MySQL-compatible database engine
-
 * [etcd] - key-value storage engine
 * [Redis] - in-memory database engine
-
 * [Neo4j](https://neo4j.com)
 
 ## Block Storage
 
-* 
+
