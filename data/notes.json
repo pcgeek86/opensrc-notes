@@ -1,0 +1,362 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "vault"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1655394575604,
+      "created": 1655394575604,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "lbzZUFNlo3Gq3jytlOvPg": {
+      "id": "lbzZUFNlo3Gq3jytlOvPg",
+      "title": "Welcome to Trevor Sullivan's technology notes!",
+      "desc": "",
+      "updated": 1645906628905,
+      "created": 1643864208027,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "f6c6a1f45040d650869d8f4136de5d97",
+      "links": [],
+      "anchors": {
+        "my-interests": {
+          "type": "header",
+          "text": "My Interests",
+          "value": "my-interests",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "0qla2fc5ujsmv8gyu6pp5ea",
+        "et5tznr9jtwr693zx2311bv"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "et5tznr9jtwr693zx2311bv": {
+      "fname": "cloud",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1655394575388,
+      "created": 1655394575388,
+      "id": "et5tznr9jtwr693zx2311bv",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "nWWQasrVd8ffIDuMMQm7U"
+      ],
+      "parent": "lbzZUFNlo3Gq3jytlOvPg",
+      "data": {},
+      "title": "Cloud"
+    },
+    "nWWQasrVd8ffIDuMMQm7U": {
+      "id": "nWWQasrVd8ffIDuMMQm7U",
+      "title": "Cloud Storage Solutions",
+      "desc": "Overview of object, block, and database storage solutions from cloud vendors.",
+      "updated": 1646790166836,
+      "created": 1643864519444,
+      "custom": {},
+      "fname": "cloud.storage",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b8c656b9a1a547a74393548385bf9274",
+      "links": [],
+      "anchors": {
+        "cloud-storage": {
+          "type": "header",
+          "text": "Cloud Storage",
+          "value": "cloud-storage",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "object-storage": {
+          "type": "header",
+          "text": "Object Storage",
+          "value": "object-storage",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "database-storage": {
+          "type": "header",
+          "text": "Database Storage",
+          "value": "database-storage",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "key-value-storage": {
+          "type": "header",
+          "text": "Key-Value Storage",
+          "value": "key-value-storage",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "graph-databases": {
+          "type": "header",
+          "text": "Graph Databases",
+          "value": "graph-databases",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        },
+        "block-storage": {
+          "type": "header",
+          "text": "Block Storage",
+          "value": "block-storage",
+          "line": 36,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "et5tznr9jtwr693zx2311bv",
+      "data": {}
+    },
+    "0qla2fc5ujsmv8gyu6pp5ea": {
+      "id": "0qla2fc5ujsmv8gyu6pp5ea",
+      "title": "Kubernetes",
+      "desc": "Introduction to Kubernetes open source container orchestrator from the Cloud Native Computing Foundation (CNCF).",
+      "updated": 1646084558122,
+      "created": 1645834561651,
+      "stub": true,
+      "custom": {
+        "stub": true
+      },
+      "fname": "kubernetes",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "12e1faea6171a1ca3c3a9ab6b1200173",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "eail1jp5vo3trpbrz3vgenh",
+        "bn4mbqssc8hfyyw2ldmapbu",
+        "xS4a2VvW7vHG500rq8Ae0",
+        "ant1bw1zzeggdo8uvyhb8j7"
+      ],
+      "parent": "lbzZUFNlo3Gq3jytlOvPg",
+      "data": {}
+    },
+    "ant1bw1zzeggdo8uvyhb8j7": {
+      "id": "ant1bw1zzeggdo8uvyhb8j7",
+      "title": "Kubernetes Training",
+      "desc": "This page contains information about Kubernetes training that is available.",
+      "updated": 1646084741580,
+      "created": 1646084572550,
+      "custom": {},
+      "fname": "kubernetes.training",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "8f7fc8bbacebefbe2bd944c2715102fe",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "0qla2fc5ujsmv8gyu6pp5ea",
+      "data": {}
+    },
+    "xS4a2VvW7vHG500rq8Ae0": {
+      "id": "xS4a2VvW7vHG500rq8Ae0",
+      "title": "Deploying Kubernetes Pods",
+      "desc": "Deploying pods onto Kubernetes clusters.",
+      "updated": 1645838207608,
+      "created": 1644876750896,
+      "stub": false,
+      "custom": {
+        "stub": false
+      },
+      "fname": "kubernetes.pods",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "d44270bcc3af108729947ae06efb5b24",
+      "links": [],
+      "anchors": {
+        "deploy-mysql-database-in-kubernetes-pod": {
+          "type": "header",
+          "text": "Deploy MySQL Database in Kubernetes Pod",
+          "value": "deploy-mysql-database-in-kubernetes-pod",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "deploy-pod-manifest-with-powershell": {
+          "type": "header",
+          "text": "Deploy Pod Manifest with PowerShell",
+          "value": "deploy-pod-manifest-with-powershell",
+          "line": 46,
+          "column": 0,
+          "depth": 3
+        },
+        "deploy-kubernetes-pod-with-multiple-containers": {
+          "type": "header",
+          "text": "Deploy Kubernetes Pod with Multiple Containers",
+          "value": "deploy-kubernetes-pod-with-multiple-containers",
+          "line": 69,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "0qla2fc5ujsmv8gyu6pp5ea",
+      "data": {}
+    },
+    "bn4mbqssc8hfyyw2ldmapbu": {
+      "id": "bn4mbqssc8hfyyw2ldmapbu",
+      "title": "Networkpolicy",
+      "desc": "",
+      "updated": 1645836005806,
+      "created": 1645836005806,
+      "custom": {},
+      "fname": "kubernetes.networkpolicy",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "1c5d4ef6894b6e1820cd320872e95ffd",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "0qla2fc5ujsmv8gyu6pp5ea",
+      "data": {}
+    },
+    "eail1jp5vo3trpbrz3vgenh": {
+      "id": "eail1jp5vo3trpbrz3vgenh",
+      "title": "Kubectl CLI Tool",
+      "desc": "Learn how to use the kubectl command line utility",
+      "updated": 1646084541914,
+      "created": 1646083978256,
+      "custom": {},
+      "fname": "kubernetes.kubectl",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "3a2cf62354a3cc162b19d1320db3a16a",
+      "links": [],
+      "anchors": {
+        "apply-kubernetes-manifest-with-kubectl": {
+          "type": "header",
+          "text": "Apply Kubernetes Manifest with Kubectl",
+          "value": "apply-kubernetes-manifest-with-kubectl",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "0qla2fc5ujsmv8gyu6pp5ea",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "lbzZUFNlo3Gq3jytlOvPg",
+      "title": "Welcome to Trevor Sullivan's technology notes!",
+      "desc": "",
+      "updated": 1645906628905,
+      "created": 1643864208027,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "f6c6a1f45040d650869d8f4136de5d97",
+      "links": [],
+      "anchors": {
+        "my-interests": {
+          "type": "header",
+          "text": "My Interests",
+          "value": "my-interests",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "0qla2fc5ujsmv8gyu6pp5ea",
+        "et5tznr9jtwr693zx2311bv"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\nHello, my name is [Trevor Sullivan](https://www.linkedin.com/in/trevor-sullivan-310000225/). This is an informational site to help people with technology.\nYou can find me on [GitHub](https://github.com/pcgeek86) as well, where I've authored several open source projects.\nI also have a [YouTube channel](https://youtube.com/trevorsullivan) where I publish videos about technical topics, such as PowerShell, AWS, Azure, and more.\n\n### My Interests\n\n* Software\n* Photography / video\n* Motorcycles\n* Firearms\n* Investing\n* Hiking\n* Beer"
+    }
+  ],
+  "noteIndex": {
+    "id": "lbzZUFNlo3Gq3jytlOvPg",
+    "title": "Welcome to Trevor Sullivan's technology notes!",
+    "desc": "",
+    "updated": 1645906628905,
+    "created": 1643864208027,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "contentHash": "f6c6a1f45040d650869d8f4136de5d97",
+    "links": [],
+    "anchors": {
+      "my-interests": {
+        "type": "header",
+        "text": "My Interests",
+        "value": "my-interests",
+        "line": 12,
+        "column": 0,
+        "depth": 3
+      }
+    },
+    "children": [
+      "0qla2fc5ujsmv8gyu6pp5ea",
+      "et5tznr9jtwr693zx2311bv"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\nHello, my name is [Trevor Sullivan](https://www.linkedin.com/in/trevor-sullivan-310000225/). This is an informational site to help people with technology.\nYou can find me on [GitHub](https://github.com/pcgeek86) as well, where I've authored several open source projects.\nI also have a [YouTube channel](https://youtube.com/trevorsullivan) where I publish videos about technical topics, such as PowerShell, AWS, Azure, and more.\n\n### My Interests\n\n* Software\n* Photography / video\n* Motorcycles\n* Firearms\n* Investing\n* Hiking\n* Beer"
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    }
+  ]
+}

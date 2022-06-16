@@ -1,0 +1,90 @@
+{
+  "roots": [
+    {
+      "key": "lbzZUFNlo3Gq3jytlOvPg",
+      "title": "Welcome to Trevor Sullivan's technology notes!",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "et5tznr9jtwr693zx2311bv",
+          "title": "Cloud",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "nWWQasrVd8ffIDuMMQm7U",
+              "title": "Cloud Storage Solutions",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "0qla2fc5ujsmv8gyu6pp5ea",
+          "title": "Kubernetes",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "xS4a2VvW7vHG500rq8Ae0",
+              "title": "Deploying Kubernetes Pods",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "eail1jp5vo3trpbrz3vgenh",
+              "title": "Kubectl CLI Tool",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "ant1bw1zzeggdo8uvyhb8j7",
+              "title": "Kubernetes Training",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "bn4mbqssc8hfyyw2ldmapbu",
+              "title": "Networkpolicy",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "lbzZUFNlo3Gq3jytlOvPg": null,
+    "et5tznr9jtwr693zx2311bv": "lbzZUFNlo3Gq3jytlOvPg",
+    "nWWQasrVd8ffIDuMMQm7U": "et5tznr9jtwr693zx2311bv",
+    "0qla2fc5ujsmv8gyu6pp5ea": "lbzZUFNlo3Gq3jytlOvPg",
+    "ant1bw1zzeggdo8uvyhb8j7": "0qla2fc5ujsmv8gyu6pp5ea",
+    "xS4a2VvW7vHG500rq8Ae0": "0qla2fc5ujsmv8gyu6pp5ea",
+    "bn4mbqssc8hfyyw2ldmapbu": "0qla2fc5ujsmv8gyu6pp5ea",
+    "eail1jp5vo3trpbrz3vgenh": "0qla2fc5ujsmv8gyu6pp5ea"
+  }
+}

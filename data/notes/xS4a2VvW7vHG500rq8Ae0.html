@@ -1,0 +1,54 @@
+<h1 id="deploying-kubernetes-pods"><a aria-hidden="true" class="anchor-heading" href="#deploying-kubernetes-pods"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Deploying Kubernetes Pods</h1>
+<p>In order to deploy a Kubernetes Pod with a YAML file, use the template below and customize it to your specific needs.</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Pod
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> podder
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>test
+    <span class="token key atrule">color</span><span class="token punctuation">:</span> orange
+    <span class="token key atrule">meat</span><span class="token punctuation">:</span> bacon
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> webserver
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> nginx
+</code></pre>
+<h3 id="deploy-mysql-database-in-kubernetes-pod"><a aria-hidden="true" class="anchor-heading" href="#deploy-mysql-database-in-kubernetes-pod"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Deploy MySQL Database in Kubernetes Pod</h3>
+<p>The following Kubernetes manifest will deploy a Kubernetes pod running the MySQL database engine.</p>
+<pre class="language-yml"><code class="language-yml"><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Pod
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> mysqlserver <span class="token comment"># Name for the Kubernetes pod</span>
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">purpose</span><span class="token punctuation">:</span> Store financial data <span class="token comment"># A key-value label for the MySQL pod</span>
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> mysqldb
+    <span class="token key atrule">image</span><span class="token punctuation">:</span> mysql<span class="token punctuation">:</span>latest
+    <span class="token key atrule">env</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> MYSQL_ROOT_PASSWORD
+        <span class="token key atrule">value</span><span class="token punctuation">:</span> <span class="token punctuation">-</span><span class="token punctuation">-</span>yourpasswordhere<span class="token punctuation">-</span><span class="token punctuation">-</span>
+</code></pre>
+<h3 id="deploy-pod-manifest-with-powershell"><a aria-hidden="true" class="anchor-heading" href="#deploy-pod-manifest-with-powershell"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Deploy Pod Manifest with PowerShell</h3>
+<p>You can pipe a Kubernetes manifest directly into PowerShell.
+To accomplish this, set the <code>--filename</code> parameter to a <code>-</code> dash character, and pipe the string into the <code>kubectl</code> command.</p>
+<pre class="language-powershell"><code class="language-powershell">@<span class="token string">'
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mysqlserver                    # Name for the Kubernetes pod
+  labels:
+    purpose: store-financial-data      # A key-value label for the MySQL pod
+spec:
+  containers:
+  - name: mysqldb
+    image: mysql:latest
+    env:
+      - name: MYSQL_ROOT_PASSWORD      # The MySQL container image requires that you set a root password statically or randomly. This is the static method
+        value: --yourpasswordhere--    # The root password for the MySQL engine
+'</span>@ <span class="token punctuation">|</span> kubectl apply <span class="token operator">--</span>filename <span class="token operator">-</span>
+</code></pre>
+<h3 id="deploy-kubernetes-pod-with-multiple-containers"><a aria-hidden="true" class="anchor-heading" href="#deploy-kubernetes-pod-with-multiple-containers"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Deploy Kubernetes Pod with Multiple Containers</h3>
+<p>You can deploy more than one container in each Kubernetes Pod resource.
+The <code>containers</code> property on the Kubernetes Pod spec is an array, so all you need to do is add more containers.
+Keep in mind that a Pod has a single IP address, and two containers cannot use the same network port.</p>

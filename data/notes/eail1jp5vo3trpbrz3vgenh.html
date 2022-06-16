@@ -1,0 +1,24 @@
+<h1 id="kubectl-cli-tool"><a aria-hidden="true" class="anchor-heading" href="#kubectl-cli-tool"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Kubectl CLI Tool</h1>
+<p>The kubectl command line utility is designed to help you manage Kubernetes clusters.
+You can perform common operations, such as create Pods and Services, using an imperative approach.
+You can also apply Kubernetes manifest files from the filesystem or stored in memory.</p>
+<h3 id="apply-kubernetes-manifest-with-kubectl"><a aria-hidden="true" class="anchor-heading" href="#apply-kubernetes-manifest-with-kubectl"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Apply Kubernetes Manifest with Kubectl</h3>
+<p>If your Kubernetes manifest file has a namespace declared in the <code>metadata</code> section of each resource, you can apply the template using the following command.</p>
+<pre><code>kubectl apply --filename mymanifest.yml
+</code></pre>
+<p>If resource definitions in your Kubernetes manifest do not contain a <code>metadata.namespace</code> setting, then you can specify the Kubernetes namespace that you want to deploy resources into.</p>
+<pre><code>kubectl apply --namespace mycustomapp --filename mymanifest.yml
+</code></pre>
+<p>You can also pipe a string, containing a Kubernetes manifest, into the kubectl utility.
+This option gives you more versatility over the source of a manifest file. </p>
+<pre><code>@'
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod
+spec:
+  containers:
+  - name: server
+    image: nginx
+'@ | kubectl apply --filename -
+</code></pre>
